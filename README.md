@@ -34,3 +34,17 @@
 **Issues Faced:**
 - None. (Or mention if you struggled with `StringBuilder` syntax or `split()` edge cases).
 ---
+
+## Date: 12-09-2026
+**Today's Work:**
+- Completed Session 4: Advanced Array Problems.
+- Solved Two Sum, Best Time to Buy/Sell Stock, Contains Duplicate, Merge Sorted Arrays, Rotate Array in class_problems.
+- Solved Find Min in Rotated Array, Max Subarray, Product Except Self, Subarray Sum Equals K, Three Sum in assignment_problems.
+- Organized code under 'advanced_arrays' package with class_problems and assignment_problems sub-packages.
+
+**Next Session Plan:**
+- Start working on Linked List problems or Dynamic Programming basics.
+
+**Issues Faced:**
+- None. (Or mention if you had any)
+---
