@@ -43,8 +43,31 @@
 - Organized code under 'advanced_arrays' package with class_problems and assignment_problems sub-packages.
 
 **Next Session Plan:**
-- Start working on Linked List problems or Dynamic Programming basics.
+- Start working on OOPS concepts.
 
 **Issues Faced:**
 - None. (Or mention if you had any)
+---
+
+## Date: 12-09-2026
+**Today's Work:**
+- Completed Week 5 Category C Practice Problems (5 Problems) focusing on Array manipulation and method logic:
+  - Implemented `curveScores()` to modify an array in-place using pass-by-reference logic.
+  - Created `findDuplicateTeam()` using nested loops to detect duplicate strings without Collections.
+  - Developed `findTopThreeScores()` to track top 3 values in a single pass without sorting.
+  - Built `classifyRows()` with a helper `rowAverage()` method to analyze 2D jagged arrays.
+  - Designed `shortlistAndRank()` using Method Overloading, Encapsulation, and `Comparable` interface for custom object sorting.
+
+- Completed Week 5 Assignment Problems (5 Problems) focusing on advanced array handling:
+  - Implemented `applyMultipliers()` to modify specific indices in a double array directly.
+  - Created `findDuplicatePick()` to check for repeated player names using pairwise comparison.
+  - Developed `findMinMaxSpread()` to calculate min, max, and spread in a single traversal.
+  - Built `classifyMatches()` with a reusable `rowAverage()` helper for 2D grid analysis.
+  - Designed `draftAndRank()` using overloaded eligibility checks and `Comparable` for auto-draft ranking.
+
+**Next Session Plan:**
+- Start working on classes and objects problems.
+
+**Issues Faced:**
+- None. (Or mention if you struggled with `Comparable` interface or 2D array indexing).
 ---
