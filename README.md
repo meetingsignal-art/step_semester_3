@@ -71,3 +71,26 @@
 **Issues Faced:**
 - None. (Or mention if you struggled with `Comparable` interface or 2D array indexing).
 ---
+
+## Date: 14-09-2026
+**Today's Work:**
+- Completed Week 6 Category C Practice Problems (5 Problems) focusing on OOP fundamentals:
+  - Implemented `PlacementRecord` class with constructor and instance method `printRecord()` to manage student placement data.
+  - Created `MessWallet` class demonstrating encapsulation with private fields, validation in constructor, and controlled `topUp()`/`deduct()` methods.
+  - Developed `Course` class using constructor chaining (`this(...)`) to handle both theory-only and lab-included courses.
+  - Built `IdCard` class to demonstrate object reference behavior, showing how multiple variables can point to the same object vs. separate instances.
+  - Designed `Student` class utilizing static fields (`collegeName`, `studentCount`) and a static method `printCollegeInfo()` to share data across all objects.
+
+- Completed Week 6 Assignment Problems (5 Problems) focusing on advanced OOP design:
+  - Implemented `BookInventory` class to replace parallel arrays with an object-oriented approach for library management.
+  - Created `PayrollAccount` class with strict encapsulation, ensuring net salary cannot be set directly and bonuses/taxes are validated.
+  - Developed `Employee` class using constructor overloading and chaining to differentiate between permanent employees and interns.
+  - Built `HallTicket` class to reinforce concepts of object references and memory identity (`==` operator).
+  - Designed `CompanyEmployee` system using static members to track global company info and employee count efficiently.
+
+**Next Session Plan:**
+- Start working on Inheritance and Polymorphism (Method Overriding, Super keyword, Abstract classes).
+
+**Issues Faced:**
+- None. (Or mention if you struggled with constructor chaining or static vs. instance context).
+---
