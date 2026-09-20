@@ -94,3 +94,26 @@
 **Issues Faced:**
 - None. (Or mention if you struggled with constructor chaining or static vs. instance context).
 ---
+
+## Date: 20-09-2026
+**Today's Work:**
+- Completed Week 7 Category C Practice Problems (5 Problems) focusing on Encapsulation fundamentals:
+  - Implemented `PiggyBank` class with private savings, final ID, and controlled `deposit()`/`withdraw()` methods to prevent direct state modification.
+  - Created `Scorecard` class that stores answer results in a private array, exposing only the total score via `getScore()` while hiding raw data.
+  - Developed `NameTag` class as an immutable object, splitting full names in the constructor and providing a read-only `getNickname()` method.
+  - Built `Locker` class with a write-only combination code, requiring the current code for validation before allowing changes via `changeCode()`.
+  - Designed `AttendanceSheet` class that tracks present students internally but only reveals counts and existence checks (`isPresent()`) without exposing the full list.
+
+- Completed Week 7 Assignment Problems (5 Problems) focusing on advanced access control and data integrity:
+  - Implemented `Character` health system with clamping logic in `takeDamage()` and `heal()` to ensure health stays within [0, maxHealth] bounds.
+  - Created `Playlist` class that returns a safe copy of its song array via `getSongs()`, preventing external modifications from affecting internal state.
+  - Developed `PasswordChecker` class that evaluates strength ("Weak"/"Medium"/"Strong") based on length/rules without ever exposing the actual password string.
+  - Built `TrafficLight` class where color transitions are strictly controlled by a `next()` method (Red→Green→Yellow→Red), preventing arbitrary state jumps.
+  - Designed `Cart` class that computes total price and item count on-the-fly from a private price array, ensuring no direct access to individual item prices.
+
+**Next Session Plan:**
+- Start working on Inheritance and Polymorphism (Method Overriding, Super keyword, Abstract classes).
+
+**Issues Faced:**
+- None. (Or mention if you struggled with returning safe copies of arrays or implementing write-only fields).
+---
