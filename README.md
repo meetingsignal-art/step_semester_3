@@ -117,3 +117,26 @@
 **Issues Faced:**
 - None. (Or mention if you struggled with returning safe copies of arrays or implementing write-only fields).
 ---
+
+## Date: 10-10-2026
+**Today's Work:**
+- Completed Week 8 Category C Practice Problems (5 Problems) focusing on Polymorphism and Dynamic Dispatch:
+  - Implemented `PaymentSystem` using polymorphic classes (`Card`, `Wallet`, `BankTransfer`) to calculate transaction fees without type-checking.
+  - Created `LibraryItem` hierarchy (`Book`, `DVD`, `Magazine`) to calculate due dates based on specific borrowing periods via method overriding.
+  - Developed `DeliveryFee` system (`Standard`, `Express`, `International`) where each class encapsulates its own pricing logic.
+  - Built `QuestionGrader` system (`MCQ`, `TF`, `Essay`) that evaluates answers polymorphically, handling partial credit for essays internally.
+  - Designed `TransportFare` calculator (`Bus`, `Train`, `Metro`) applying distinct fare rules and peak-hour multipliers dynamically.
+
+- Completed Week 8 Coding Assignment (5 Problems) focusing on real-world polymorphic design patterns:
+  - Implemented `CanteenBilling` system where `Student`, `Staff`, and `Guest` objects calculate final bills with discounts/charges via overridden methods.
+  - Created `ParkingCharge` calculator for `Bike`, `Car`, and `Truck` types, handling hourly rates and minimum charges polymorphically.
+  - Developed `HostelElectricityBill` system for `Single`, `Shared`, and `AC` rooms, ensuring shared costs are split correctly within the object.
+  - Built `FestivalBonus` calculator where `FullTime`, `PartTime`, and `Intern` employees compute bonuses based on their specific employment rules.
+  - Designed `StreamingRenewal` system using `LocalDate` to calculate renewal dates for `Basic`, `Standard`, and `Premium` plans without conditional logic in the main loop.
+
+**Next Session Plan:**
+- Start working on Interfaces, Exception Handling, and File I/O operations.
+
+**Issues Faced:**
+- None. (Or mention if you struggled with designing the base abstract class vs. interface).
+---
