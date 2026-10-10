@@ -140,3 +140,26 @@
 **Issues Faced:**
 - None. (Or mention if you struggled with designing the base abstract class vs. interface).
 ---
+
+## Date: 17-09-2026
+**Today's Work:**
+- Completed Session 9 Category C Practice Problems (5 Problems) focusing on Abstraction and Interfaces:
+  - Implemented `GardenPlot` system using an abstract base class to calculate areas for Circle, Rectangle, and Triangle without type-checking.
+  - Created `StaffPay` system where `FullTime`, `Hourly`, and `Intern` subclasses override `calculatePay()` to handle distinct salary rules (including overtime logic).
+  - Developed `LibraryFine` calculator where `Book`, `DVD`, and `Magazine` classes implement specific fine caps and rates via method overriding.
+  - Built `ElectricityBill` system using abstraction to model Home, Shop, and Factory billing slabs with minimum charge constraints.
+  - Designed `TravelBooking` system where an abstract base class handles the common booking fee, while subclasses (`Bus`, `Train`, `Flight`) implement unique fare logic.
+
+- Completed Session 9 Coding Assignment (5 Problems) focusing on Interface-based design and mixed inheritance:
+  - Implemented `MovieTicket` counter where a shared convenience fee is handled in the base class, while seat types (`Regular`, `Premium`, `Recliner`) define base prices.
+  - Created `ParcelShipping` desk using interfaces to separate "shippable" behavior from "insurable" behavior, allowing only Express/Fragile parcels to carry insurance.
+  - Developed `CollegeFee` counter where transport fees are applied polymorphically based on whether a student type implements a `TransportUser` interface.
+  - Built `CityCab` fare meter where night service availability is controlled via an interface, rejecting night trips for Mini cabs while applying surcharges for Sedan/SUV.
+  - Designed `ApplianceEnergy` report where saver mode support is defined by an interface, ensuring Fridge/TV reject saver requests while AC/Washer apply discounts.
+
+**Next Session Plan:**
+- Start working on Exception Handling (Try-Catch, Custom Exceptions, Finally block) and File I/O basics.
+
+**Issues Faced:**
+- None. (Or mention if you struggled with deciding when to use an Abstract Class vs. an Interface for shared behavior).
+---
